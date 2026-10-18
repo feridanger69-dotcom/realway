@@ -8,7 +8,7 @@ PAIR_CODE = "ChangeThis-ToYourOwn-PrivateCode-9381"
 
 RELAY_URL = os.getenv(
     "RELAY_URL",
-    "wss://realway-production-0f21.up.railway.app/ws"
+    "wss://vpn.mriranfa.site/ws"
 )
 
 ROLE = os.getenv("ROLE", "client").lower()
