@@ -5,7 +5,7 @@ import websockets
 from websockets.exceptions import ConnectionClosed
 
 PAIR_CODE = "MyLaptop-7264-private"
-RELAY_URL = os.getenv("RELAY_URL", "wss://YOUR-RAILWAY-DOMAIN/ws")
+RELAY_URL = os.getenv("RELAY_URL", "realway-production-0f21.up.railway.app")
 ROLE = os.getenv("ROLE", "client").lower()
 MAX_FILE_BYTES = 20 * 1024 * 1024
 
