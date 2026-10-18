@@ -4,8 +4,13 @@ from pathlib import Path
 import websockets
 from websockets.exceptions import ConnectionClosed
 
-PAIR_CODE = "MyLaptop-7264-private"
-RELAY_URL = os.getenv("RELAY_URL", "realway-production-0f21.up.railway.app")
+PAIR_CODE = "ChangeThis-ToYourOwn-PrivateCode-9381"
+
+RELAY_URL = os.getenv(
+    "RELAY_URL",
+    "wss://realway-production-0f21.up.railway.app/ws"
+)
+
 ROLE = os.getenv("ROLE", "client").lower()
 MAX_FILE_BYTES = 20 * 1024 * 1024
 
